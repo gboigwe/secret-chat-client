@@ -16,7 +16,8 @@ let socket;
 
 const Chat = () => {
   // const ENDPOINT = "http://localhost:5000";
-  const ENDPOINT = "https://chat-secret-app.herokuapp.com";
+  // const ENDPOINT = "https://chat-secret-app.herokuapp.com";
+  const ENDPOINT = "http://server-chat-tau.vercel.app";
   const [name, setName] = useState('');
   const [room, setRoom] = useState('');
   
